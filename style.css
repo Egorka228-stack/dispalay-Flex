@@ -1,0 +1,38 @@
+.container{ 
+    display: flex;
+border: 5px solid green;
+min-height: 60vh;
+max-height: 60vh    ;
+
+flex-flow:row-reverse wrap;
+
+justify-content:center;
+align-content:center; 
+
+
+/* align-content:span-; */
+}
+
+.card{
+    width: 100px;
+    border: 5px solid black;
+    background-color: gray;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+/* justify-content: flex-end; в конец шлавной оси*/
+
+/* flex-direction: ; изменитиь направление главной оси, row основное положение оси  */
+
+
+/* justify-content:flex-start;рачположение между елементами или центровка тобешь перемещение */ 
+
+/* flex-wrap: wrap;перенос на новую строку при переполнени строки */
+
+/* align-content:center; работа по горизонтальной оси */
+
+
+/* flex-direction: row; */
+/* flex-wrap: wrap;         =  flex-flow: row wrap; */
